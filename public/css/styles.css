@@ -302,7 +302,11 @@ footer{
         margin: 0 10px;
     }
     .descripcion{
-        display: flex;
+        color: transparent;
+    }
+    .descripcion:hover {
+        color: #0e0d0d;
+        transition: 0.5s;
     }
     .lista-compra{
         display: flex;
@@ -316,6 +320,9 @@ footer{
     .producto {
         margin: left;
         max-width: 40%;
+    }
+    .producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .top-bar{
         display: flex;
@@ -349,19 +356,9 @@ footer{
         margin: left;
         max-width: 20%;
     }
-    .producto:hover {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
     .camion{
         left:17vw;
         top:20vw;
-    }
-    .descripcion{
-        color: transparent;
-    }
-    .descripcion:hover {
-        color: #0e0d0d;
-        transition: 0.5s;
     }
     .tarjetita{
         margin-top: 0;
