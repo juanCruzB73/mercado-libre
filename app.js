@@ -4,7 +4,7 @@ const app = express();
 
 const path = require("path");
 
-app.listen(2020, ()=> console.log("server corriendo"));
+app.listen(process.env.PORT || 2020, ()=> console.log("server corriendo"));
 
 const publicPath = path.resolve(__dirname, ("public"));
 
