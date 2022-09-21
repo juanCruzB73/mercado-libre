@@ -1,1 +1,1 @@
-First proyect practicing basic html and css
+First project practicing basic html and css
