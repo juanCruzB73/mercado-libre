@@ -1,1 +1,1 @@
-First project practicing basic html and css
+First project recreating the esthetics of mercado libre using html and css
